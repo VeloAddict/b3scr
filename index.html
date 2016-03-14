@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Custom on/off switch, checkbox and radio for Bootstrap 3</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/b3scr.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">B3SCR</a>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container" style="padding-top: 80px;">
+			<h3>Switch</h3>
+			<!-- Off state -->
+			<div class="switch" data-toggle="switch">
+			 <label>ON <input type="checkbox"><span class="toggle"></span> OFF</label>
+			</div>
+
+			<!-- On state -->
+			<div class="switch" data-toggle="switch">
+			 <label>ON <input type="checkbox" checked><span class="toggle"></span> OFF</label>
+			</div>
+
+			<!-- Disabled off state -->
+			<div class="switch" data-toggle="switch">
+			 <label>ON <input type="checkbox" disabled><span class="toggle"></span> OFF</label>
+			</div>
+
+			<!-- Disabled on state -->
+			<div class="switch" data-toggle="switch">
+			 <label>ON <input type="checkbox" checked disabled><span class="toggle"></span> OFF</label>
+			</div>
+			
+			<hr>
+			
+			<h3>Checkbox</h3>
+			<!-- Unchecked -->
+			<div class="checkbox">
+			 <label>
+				<input type="checkbox">
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Checked -->
+			<div class="checkbox">
+			 <label>
+				<input type="checkbox" checked>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Disabled unchecked -->
+			<div class="checkbox">
+			 <label>
+				<input type="checkbox" disabled>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Disabled checked -->
+			<div class="checkbox">
+			 <label>
+				<input type="checkbox" checked disabled>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Inline unchecked/checked/disabled unchecked/disabled checked -->
+			<label class="checkbox-inline"><input type="checkbox"><span class="check"></span> Check me out</label>
+			<label class="checkbox-inline"><input type="checkbox" checked><span class="check"></span> Check me out</label>
+			<label class="checkbox-inline"><input type="checkbox" disabled><span class="check"></span> Check me out</label>
+			<label class="checkbox-inline"><input type="checkbox" checked disabled><span class="check"></span> Check me out</label>
+			
+			<hr>
+			
+			<h3>Radio</h3>
+			<!-- Unchecked/checked -->
+			<div class="radio">
+			 <label>
+				<input type="radio" name="test1">
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+			<div class="radio">
+			 <label>
+				<input type="radio" name="test1" checked>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Disabled unchecked/checked -->
+			<div class="radio">
+			 <label>
+				<input type="radio" name="test2" disabled>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+			<div class="radio">
+			 <label>
+				<input type="radio" name="test2" checked disabled>
+				<span class="check"></span> Check me out
+			 </label>
+			</div>
+
+			<!-- Inline unchecked/checked/disabled unchecked/disabled checked -->
+			<label class="radio-inline"><input type="radio" name="test3"><span class="check"></span> Check me out</label>
+			<label class="radio-inline"><input type="radio" name="test3" checked><span class="check"></span> Check me out</label>
+			<label class="radio-inline"><input type="radio" name="test4" disabled><span class="check"></span> Check me out</label>
+			<label class="radio-inline"><input type="radio" name="test4" checked disabled><span class="check"></span> Check me out</label>
+		</div>
+	</body>
+</html>
